@@ -1,9 +1,9 @@
 package helloworld
 
-import grails.testing.gorm.DomainUnitTest
+import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
-class BookSpec extends Specification implements DomainUnitTest<Book> {
+class HelloControllerSpec extends Specification implements ControllerUnitTest<HelloController> {
 
     def setup() {
     }
